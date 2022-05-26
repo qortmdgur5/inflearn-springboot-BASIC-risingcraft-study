@@ -50,7 +50,6 @@ public class SingletonTest {
         MemberService memberService2 = ac.getBean("memberService", MemberService.class);
 
 
-        //참조값이 다른 것을 확인
         System.out.println("memberService2 = " + memberService2);
         System.out.println("memberService1 = " + memberService1);
 
